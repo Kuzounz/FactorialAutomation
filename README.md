@@ -10,3 +10,8 @@ Log4j is added as core api and dependancy for logging.
 
 Selenium and API tests are located in `FactAutomation/src/test/java/tests/`.
 
+
+
+## Bug Report
+The Bug Report is included in the [following document](https://github.com/Kuzounz/FactorialAutomation/blob/main/FactorialBugsReported%20-%20Sheet1.pdf).
+
