@@ -100,13 +100,13 @@ public class HomePage extends BasePage {
 	}
 
 	public HomePage clickInputFieldAndEnterString(String inputString) {
-		//log.debug("clickInputFieldAndEnterString();");
+		log.debug("clickInputFieldAndEnterString();");
 		enterText(inputFieldempty, inputString);
 		return new HomePage(driver, wait);
 	}
 
 	public HomePage validateFactorialResults(String factorialResults) {
-		//log.debug("validateFactorialResults();");
+		log.debug("validateFactorialResults();");
 		waitForElement(factresultdiv);
 		Assert.assertTrue(
 				"validateFactorialResults method failed due to: \"" + factresultdiv.getText()

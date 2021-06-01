@@ -3,20 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.NegativeTestInputNegativeInteger">
+      <class name="tests.InputHighIntegerAndValidateResult">
         <methods>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="validateStringInputError"/>
-        </methods>
-      </class> <!-- tests.NegativeTestInputNegativeInteger -->
-      <class name="tests.NaviagateToHomePageAndValidateStrings">
-        <methods>
-          <include name="validateElementsonHomePage"/>
-          <include name="tearDown"/>
+          <include name="validateHighIntegerAndResult"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- tests.NaviagateToHomePageAndValidateStrings -->
+      </class> <!-- tests.InputHighIntegerAndValidateResult -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

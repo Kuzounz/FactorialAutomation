@@ -11,5 +11,7 @@ public class Strings_english {
 	public static final String PAGE_PRIVACY = "Privacy";
 	public static final String PAGE_QXF2SERVICES = "Qxf2 Services";
 	public static final String FACTORIALRESULTFROM10 = "The factorial of 10 is: 3628800";
+	public static final String FACTORIALRESULTFROM1000 = "The factorial of 500 is: Infinity";
+	public static final String FACTORIALRESULTFROM1 = "The factorial of 0 is: 1";
 
 }

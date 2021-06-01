@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>FactorialTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 01 18:15:42 CEST 2021</td>
+<td>Started on:</td><td>Tue Jun 01 19:01:58 CEST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>17 seconds (17886 ms)</td>
+<tr><td>Total time:</td><td>23 seconds (23117 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>heartbeat </td>
 </tr><tr>
@@ -82,8 +82,8 @@ function toggleAllBoxes() {
 	at pages.HomePage.validateFactorialResults(HomePage.java:111)
 	at tests.NegativeTestInputNegativeInteger.validateStringInputError(NegativeTestInputNegativeInteger.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace677144856", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace677144856'><pre>java.lang.AssertionError: validateFactorialResults method failed due to: &quot;&quot; not matching expected: &quot;Please enter an integer&quot;
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace904872862", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace904872862'><pre>java.lang.AssertionError: validateFactorialResults method failed due to: &quot;&quot; not matching expected: &quot;Please enter an integer&quot;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at pages.HomePage.validateFactorialResults(HomePage.java:111)
@@ -118,7 +118,52 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>tests.NegativeTestInputNegativeInteger@7e7be63f</td></tr>
+<td>tests.NegativeTestInputNegativeInteger@618425b5</td></tr>
+<tr>
+<td title='tests.InputHighIntegerAndValidateResult.validateHighIntegerAndResult()'><b>validateHighIntegerAndResult</b><br>Test class: tests.InputHighIntegerAndValidateResult<br>Test method: Verify that input of high Integer 1000 is matching expected result</td>
+<td><div><pre>java.lang.AssertionError: validateFactorialResults method failed due to: &quot;&quot; not matching expected: &quot;The factorial of 500 is: Infinity&quot;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at pages.HomePage.validateFactorialResults(HomePage.java:111)
+	at tests.InputHighIntegerAndValidateResult.validateHighIntegerAndResult(InputHighIntegerAndValidateResult.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace959897458", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace959897458'><pre>java.lang.AssertionError: validateFactorialResults method failed due to: &quot;&quot; not matching expected: &quot;The factorial of 500 is: Infinity&quot;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at pages.HomePage.validateFactorialResults(HomePage.java:111)
+	at tests.InputHighIntegerAndValidateResult.validateHighIntegerAndResult(InputHighIntegerAndValidateResult.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>tests.InputHighIntegerAndValidateResult@66d3eec0</td></tr>
 <tr>
 <td title='tests.NaviagateToHomePageAndValidateStrings.validateElementsonHomePage()'><b>validateElementsonHomePage</b><br>Test class: tests.NaviagateToHomePageAndValidateStrings<br>Test method: Verify that all of the element Strings on the home page are matching expected Strings</td>
 <td><div><pre>java.lang.AssertionError: ValidatePrivacyLinkString method failed due to string: &quot;Terms and Conditions&quot; not matching expected string: &quot;Privacy&quot;
@@ -127,8 +172,8 @@ function toggleAllBoxes() {
 	at pages.HomePage.validateHomePagePrivacyLinkString(HomePage.java:69)
 	at tests.NaviagateToHomePageAndValidateStrings.validateElementsonHomePage(NaviagateToHomePageAndValidateStrings.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace721648892", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace721648892'><pre>java.lang.AssertionError: ValidatePrivacyLinkString method failed due to string: &quot;Terms and Conditions&quot; not matching expected string: &quot;Privacy&quot;
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1259037900", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1259037900'><pre>java.lang.AssertionError: ValidatePrivacyLinkString method failed due to string: &quot;Terms and Conditions&quot; not matching expected string: &quot;Privacy&quot;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at pages.HomePage.validateHomePagePrivacyLinkString(HomePage.java:69)
@@ -163,7 +208,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>tests.NaviagateToHomePageAndValidateStrings@1a18644</td></tr>
+<td>tests.NaviagateToHomePageAndValidateStrings@1af2d44a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -173,20 +218,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.NegativeTestInputDecimal.validateStringInputError()'><b>validateStringInputError</b><br>Test class: tests.NegativeTestInputDecimal<br>Test method: Verify that inputing decimal number into input field is displaying expected error </td>
-<td></td>
-<td>0</td>
-<td>tests.NegativeTestInputDecimal@5acf93bb</td></tr>
-<tr>
 <td title='tests.NegativeTestInputString.validateStringInputError()'><b>validateStringInputError</b><br>Test class: tests.NegativeTestInputString<br>Test method: Verify that inputing string into input field is displaying expected error </td>
 <td></td>
 <td>0</td>
-<td>tests.NegativeTestInputString@6cd28fa7</td></tr>
+<td>tests.NegativeTestInputString@58695725</td></tr>
 <tr>
-<td title='tests.InputHappyPathIntegerAndValidateResult.validateHappyPathIntegerAndResult()'><b>validateHappyPathIntegerAndResult</b><br>Test class: tests.InputHappyPathIntegerAndValidateResult<br>Test method: Verify that Happy path with integer 10 is matching expected result</td>
+<td title='tests.InputHappyPathIntegerAndValidateResult.validateHappyPathIntegerAndResult()'><b>validateHappyPathIntegerAndResult</b><br>Test class: tests.InputHappyPathIntegerAndValidateResult<br>Test method: Verify that Happy path with integer of 10 is matching expected result</td>
 <td></td>
 <td>0</td>
-<td>tests.InputHappyPathIntegerAndValidateResult@22ef9844</td></tr>
+<td>tests.InputHappyPathIntegerAndValidateResult@48f278eb</td></tr>
+<tr>
+<td title='tests.InputLowIntegerAndValidateResult.validateLowIntegerAndResult()'><b>validateLowIntegerAndResult</b><br>Test class: tests.InputLowIntegerAndValidateResult<br>Test method: Verify that input of Low Integer 1 is matching expected result</td>
+<td></td>
+<td>0</td>
+<td>tests.InputLowIntegerAndValidateResult@1e04fa0a</td></tr>
+<tr>
+<td title='tests.NegativeTestInputDecimal.validateStringInputError()'><b>validateStringInputError</b><br>Test class: tests.NegativeTestInputDecimal<br>Test method: Verify that inputing decimal number into input field is displaying expected error </td>
+<td></td>
+<td>0</td>
+<td>tests.NegativeTestInputDecimal@18d87d80</td></tr>
 </table><p>
 </body>
 </html>
