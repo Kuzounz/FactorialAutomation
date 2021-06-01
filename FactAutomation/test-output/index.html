@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Heartbeat" class="navigator-link">
+              <span class="suite-name border-failed">Heartbeat</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Heartbeat" class="navigator-link ">
+                    <span>C:\Users\Nikola\eclipse-workspace\FactAutomation\src\main\java\suites\testng_heartbeat_selenium.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Heartbeat" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Heartbeat" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Heartbeat" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Heartbeat" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Heartbeat" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Heartbeat" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Heartbeat" class="hide-methods failed suite-Heartbeat"> (hide)</a> <!-- hide-methods failed suite-Heartbeat -->
+                      <a href="#" panel-name="suite-Heartbeat" class="show-methods failed suite-Heartbeat"> (show)</a> <!-- show-methods failed suite-Heartbeat -->
+                    </span>
+                    <div class="method-list-content failed suite-Heartbeat">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Heartbeat" title="tests.NaviagateToHomePageAndValidateStrings" class="method navigator-link" hash-for-method="validateElementsonHomePage">validateElementsonHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Heartbeat" title="tests.NegativeTestInputNegativeInteger" class="method navigator-link" hash-for-method="validateStringInputError">validateStringInputError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Heartbeat -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Heartbeat" class="hide-methods passed suite-Heartbeat"> (hide)</a> <!-- hide-methods passed suite-Heartbeat -->
+                      <a href="#" panel-name="suite-Heartbeat" class="show-methods passed suite-Heartbeat"> (show)</a> <!-- show-methods passed suite-Heartbeat -->
+                    </span>
+                    <div class="method-list-content passed suite-Heartbeat">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Heartbeat" title="tests.InputHappyPathIntegerAndValidateResult" class="method navigator-link" hash-for-method="validateHappyPathIntegerAndResult">validateHappyPathIntegerAndResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Heartbeat" title="tests.NegativeTestInputDecimal" class="method navigator-link" hash-for-method="validateStringInputError">validateStringInputError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Heartbeat" title="tests.NegativeTestInputString" class="method navigator-link" hash-for-method="validateStringInputError">validateStringInputError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Heartbeat -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Heartbeat" class="panel Heartbeat">
+          <div class="suite-Heartbeat-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.NaviagateToHomePageAndValidateStrings</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateElementsonHomePage">
+                  </a> <!-- validateElementsonHomePage -->
+                  <span class="method-name">validateElementsonHomePage</span>
+                  <div class="stack-trace">java.lang.AssertionError: ValidatePrivacyLinkString method failed due to string: &quot;Terms and Conditions&quot; not matching expected string: &quot;Privacy&quot;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at pages.HomePage.validateHomePagePrivacyLinkString(HomePage.java:69)
+	at tests.NaviagateToHomePageAndValidateStrings.validateElementsonHomePage(NaviagateToHomePageAndValidateStrings.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that all of the element Strings on the home page are matching expected Strings)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Heartbeat-class-failed -->
+          <div class="suite-Heartbeat-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.NegativeTestInputNegativeInteger</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateStringInputError">
+                  </a> <!-- validateStringInputError -->
+                  <span class="method-name">validateStringInputError</span>
+                  <div class="stack-trace">java.lang.AssertionError: validateFactorialResults method failed due to: &quot;&quot; not matching expected: &quot;Please enter an integer&quot;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at pages.HomePage.validateFactorialResults(HomePage.java:111)
+	at tests.NegativeTestInputNegativeInteger.validateStringInputError(NegativeTestInputNegativeInteger.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that inputing negative number into input field is displaying expected error )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Heartbeat-class-failed -->
+          <div class="suite-Heartbeat-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.NegativeTestInputDecimal</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateStringInputError">
+                  </a> <!-- validateStringInputError -->
+                  <span class="method-name">validateStringInputError</span>
+                  <em>
+(Verify that inputing decimal number into input field is displaying expected error )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Heartbeat-class-passed -->
+          <div class="suite-Heartbeat-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.InputHappyPathIntegerAndValidateResult</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHappyPathIntegerAndResult">
+                  </a> <!-- validateHappyPathIntegerAndResult -->
+                  <span class="method-name">validateHappyPathIntegerAndResult</span>
+                  <em>
+(Verify that Happy path with integer 10 is matching expected result)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Heartbeat-class-passed -->
+          <div class="suite-Heartbeat-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.NegativeTestInputString</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateStringInputError">
+                  </a> <!-- validateStringInputError -->
+                  <span class="method-name">validateStringInputError</span>
+                  <em>
+(Verify that inputing string into input field is displaying expected error )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Heartbeat-class-passed -->
+        </div> <!-- panel Heartbeat -->
+        <div panel-name="test-xml-Heartbeat" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nikola\eclipse-workspace\FactAutomation\src\main\java\suites\testng_heartbeat_selenium.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Heartbeat&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FactorialTests&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;heartbeat&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;tests.*&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.InputHappyPathIntegerAndValidateResult&quot;/&gt;
+      &lt;class name=&quot;tests.NaviagateToHomePageAndValidateStrings&quot;/&gt;
+      &lt;class name=&quot;tests.NegativeTestInputDecimal&quot;/&gt;
+      &lt;class name=&quot;tests.NegativeTestInputNegativeInteger&quot;/&gt;
+      &lt;class name=&quot;tests.NegativeTestInputString&quot;/&gt;
+      &lt;class name=&quot;tests.RestFactorialApiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FactorialTests --&gt;
+&lt;/suite&gt; &lt;!-- Heartbeat --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Heartbeat" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Heartbeat</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FactorialTests (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Heartbeat" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Heartbeat</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">heartbeat</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateElementsonHomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateHappyPathIntegerAndResult</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateStringInputError</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Heartbeat" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Heartbeat</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Heartbeat');
+function tableData_Heartbeat() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateHappyPathIntegerAndResult')
+data.setCell(0, 2, 'tests.InputHappyPathIntegerAndValidateResult')
+data.setCell(0, 3, 481);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateStringInputError')
+data.setCell(1, 2, 'tests.NegativeTestInputString')
+data.setCell(1, 3, 450);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateElementsonHomePage')
+data.setCell(2, 2, 'tests.NaviagateToHomePageAndValidateStrings')
+data.setCell(2, 3, 432);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateStringInputError')
+data.setCell(3, 2, 'tests.NegativeTestInputNegativeInteger')
+data.setCell(3, 3, 393);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateStringInputError')
+data.setCell(4, 2, 'tests.NegativeTestInputDecimal')
+data.setCell(4, 3, 381);
+window.suiteTableData['Heartbeat']= { tableData: data, tableDiv: 'times-div-Heartbeat'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Heartbeat">
+              </div> <!-- times-div-Heartbeat -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Heartbeat" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Heartbeat</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Heartbeat" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.RestFactorialApiTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">APITestFactorialInteger</span>
+                <br/>
+                <span class="ignored-method-name">APITestFactorialString</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Heartbeat" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.InputHappyPathIntegerAndValidateResult</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateHappyPathIntegerAndResult</span>
+                <span class="method-start">2977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3461 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.NaviagateToHomePageAndValidateStrings</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4622 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateElementsonHomePage</span>
+                <span class="method-start">6652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7086 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.NegativeTestInputDecimal</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">8215 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateStringInputError</span>
+                <span class="method-start">10245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10627 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.NegativeTestInputNegativeInteger</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11362 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateStringInputError</span>
+                <span class="method-start">13466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13859 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.NegativeTestInputString</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14777 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateStringInputError</span>
+                <span class="method-start">16723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17174 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

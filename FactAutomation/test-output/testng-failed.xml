@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Heartbeat]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FactorialTests(failed)">
+    <groups>
+      <run>
+        <include name="heartbeat"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.NaviagateToHomePageAndValidateStrings">
+        <methods>
+          <include name="validateElementsonHomePage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.NaviagateToHomePageAndValidateStrings -->
+      <class name="tests.NegativeTestInputNegativeInteger">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="validateStringInputError"/>
+        </methods>
+      </class> <!-- tests.NegativeTestInputNegativeInteger -->
+    </classes>
+  </test> <!-- FactorialTests(failed) -->
+</suite> <!-- Failed suite [Heartbeat] -->
